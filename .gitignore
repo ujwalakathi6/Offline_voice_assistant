@@ -1,16 +1,20 @@
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore virtual environments
+# Virtual environment
 venv/
 
-# Ignore models (large files)
+# Models and large files
 models/
+*.gguf
+*.zip
 
-# Ignore system files
-.DS_Store
+# Editor / system files
 .vscode/
+.DS_Store
 
-# Ignore logs or temporary files
+# Logs / temp
 *.log
